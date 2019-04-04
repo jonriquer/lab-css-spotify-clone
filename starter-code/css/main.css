@@ -1,8 +1,140 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: sans-serif;
+  font-weight: 100;
+   
+}
+
+/* .clearfix {
+  clear: both;
+} */
+
+nav {
+  background-color: white;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  margin-top: -10px;
+}
+
+nav img {
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-bottom: -5px;
+  float: left;
+  height: auto;
+  width: 175px;
+}
+
+nav ul {
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+nav li {
+  float: right;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 100;
+  list-style: none;
+}
+
+.headerSpacer {
+  height: 35px;
+}
+
+header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  position: center;
+  height: 70vh;
+}
+
+header h1 {
+  font-size: 52px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 200px;
+}
+
+header h3 {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+#whatsOnSpotify h2{
+text-align: center;
+display: block;
+font-weight: 500;
+font-size: 29px;
+}
+
+hr {
+  background-color: #00B172;
+  width: 25%;
+  height: 3px;
+  margin-top: -18px;
+  border: none;
+}
+
+#whatsOnSpotify {
+  height: 55vh;
+}
+
+#whatsOnSpotify article {
+  text-align: center;
+  padding-top: 100px; 
+  display: block;
+  float: right;
+  width: 33%;
+  font-size: 19px;
+  height: 200px;
+}
+
+#whatsOnSpotify h3 {
+  color: #00B172;
+  font-weight: 500;
+  font-size: 24px;
+}
+#whatsOnSpotify h4 {
+  color: rgb(168, 168, 168);
+}
+
+#centerFix h3 {
+  padding-top: 17px;
+}
+
+#rightFix h3 {
+  padding-top: 6px;
+}
+
+#kanye {
+  background-color: #00B172;
+  height: 72vh;
+  padding: 25px;
+  margin: 20px;
+  position:relative;
+
+}
+
+#kanye img {
+  position: absolute;
+  right:0;
+  left:0;
+  bottom:0;
+  top:0;
+  margin: auto auto auto auto;
+  /* display: flex;
+  justify-content: center; */
+}
